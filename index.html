@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html >
+    <head>  
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Dcyber Techlab</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <script type="text/javascript" src="smoothscroll.js"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    </head>
+
+    <body data-barba="wrapper" onload="init()">
+        <script>AOS.init();</script>
+        <div class="cursor-follower"></div>
+        <div class="load-container"><div class="loading-screen"></div></div>
+        <main data-barba="container" data-barba-namespace="home-section" class="animate-this">
+
+                
+<input type="checkbox" id="openmenu" class="hamburger-checkbox">
+<div class="hamburger-icon">
+  <label for="openmenu" id="hamburger-label">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>    
+</div>
+<div class="menu-pane"> 
+  <nav>
+    <ul class="menu-links">
+      <li><a href="." class="">Home</a></li>
+      <li><a href="services.html" class="">Services</a></li>
+      <li><a href="#section1" class="">Partners</a></li> 
+      <li><a href="team.html" class="">Team</a></li>
+      <li><a href="contact.html" class="">Contact</a></li> 
+      <li><a href="blog.html" class="">Blog</a></li>                         
+    </ul>
+    <ul class="menu-social-icons">
+        <a href="https://www.linkedin.com/company/dcyber"><li class="icon-linkedin social-icons"></li></a>
+        <a href="https://www.instagram.com/dcyber_techlab/"><li class="icon-instagram social-icons"></li></a>
+        <a href="https://www.facebook.com/dcybertechlab/"><li class="icon-facebook social-icons"></li></a>
+        <a href="http://www.dcyber.in/"><li class="icon-google social-icons"></li></a>  
+    </ul>
+    <div class="city"></div>
+  </nav>
+</div>
+
+            
+            <div id="hero-section">
+                <header id="hero-header">
+                    <div class="logo-container">
+                        <a href="."><img id="logo-hero" src="images/DCS_india_logo.webp"></a>
+                    </div>
+                    
+                    
+<ul>
+    <li data-aos="fade-down" data-aos-duration="600"><a href="/" class=" active large-font"">Home</a></li>
+    <li data-aos="fade-down" data-aos-duration="600"><a href="services.html" class="large-font">Services</a></li>
+    <li data-aos="fade-down" data-aos-duration="800"><a href="#section1" class="large-font">Partners</a></li>
+    <li data-aos="fade-down" data-aos-duration="1000"><a href="team.html" class="large-font">Team</a></li> 
+    <li data-aos="fade-down" data-aos-duration="1200"><a href="contact.html" class="large-font">Contact</a></li> 
+    <li data-aos="fade-down" data-aos-duration="1400"><a href="blog.html" class="large-font">Blog</a></li>
+</ul>
+
+
+                    <div class="button-container">
+                        <a href="contact.html">
+                            <div class="magnetic">
+                                <div class="wrap">
+                                    <div class="span span-1 go"></div>
+                                    <div class="span span-2 go"></div>
+                                    <div class="span span-3 go"></div>
+                                    <div class="span span-4 go"></div>
+                                <div class="images2">
+                                   <img src="images/hand.png">
+                                </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </header>
+                <div class="responsive-button-container">
+                    <a href="contact.html"><button data-aos="fade-up" data-aos-duration="1800" data-aos-anchor-placement="top-bottom">contact</button></a>
+                </div>
+                <a href="#">
+                    <div id="mouse-scroll">
+                      <div class="mouse">
+                        <div class="mouse-in"></div>
+                      </div>
+                      <div class="scroll-indication">Scroll</div>
+                    </div>
+                </a>
+                <div id="hero-bottom">
+                    <div class="city"></div>
+                    <ul>
+                        <a href="https://www.linkedin.com/company/dcyber"><li class="icon-linkedin social-icons"></li></a>
+                        <a href="https://www.instagram.com/dcyber_techlab/"><li class="icon-instagram social-icons"></li></a>
+                        <a href="https://www.facebook.com/dcybertechlab/"><li class="icon-facebook social-icons"></li></a>
+                        <a href="http://www.dcyber.in/"><li class="icon-google social-icons"></li></a> 
+                   </ul>
+                </div>
+            </div>
+            <div id="intro">
+                <div content>
+                    <h1 class="big-title" data-aos="fade-right" data-aos-duration="1000">DCYBER<br>TECHLAB <br><span class="small-title" >INFINITE POSSIBILITIIES</span></h1>
+                    <a href="studio"><button data-aos="fade-up" data-aos-duration="1800">Services</button></a>
+                </div>
+            </div>
+            <div class="container-fluid" id="video-section">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="services-img" id="camera-img"><img src="images/aboutus.jpg"></div>
+                    </div>
+                    <div class="col-md-6 text-column" id="section2">
+                        <h3  data-aos="fade-up" data-aos-duration="1200" >About Us</h3>
+                        <p  data-aos="fade-up" data-aos-duration="1500"><strong>DCYBER</strong> DCYBER is Start-up in the field of Digital Cyber Security. DCYBER is introduce by the International Identity and Security Expert who is been working for Africa Government and US and India Multinational Financial institution, Mutual Fund in the domain of Infrastructure and Security. DCYBER primary focus is Cyber Consulting & Cyber Advisory role. Security Assessment and Gap Analysis. VAPT of Network and Applications. Cyber Frame work and Policy build. Preparation for ISO,SOX and regulator audits.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid" id="drone-section">
+                <div class="row">
+                    <div class="col-sm-6 order-sm-12" id="right">
+                        <div class="services-img drone1 images3"><img src="images/organic-flat-customer-support-illustration.png"></div>
+                    </div>
+                    <div class="col-sm-6 order-sm-1" id="left">
+                        <div class="number" data-aos="fade-up" data-aos-duration="1000">01</div>
+                        <h3 data-aos="fade-up" data-aos-duration="1200">Services</h3>
+                        <p data-aos="fade-up" data-aos-duration="1500"><strong>DCYBER, </strong>offers a wide range of services covering Data Center solutions including design, construction, and audits, Network services such as NOC and SOC management, Cloud solutions including private cloud setup and migration, IRM with managed security services and incident response, Cybersecurity offerings encompassing data security, threat protection, and identity management, Cyber Exposure Assessment for evaluating external cyber risks, and Facility Management Services covering help desk support and vendor management.</p>
+                        <a href="services.html"><button data-aos="fade-up" data-aos-duration="1800">Services</button></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid" id="design-section">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="services-img image4" id="design-img"><img src="images/team1.png"></div>
+                    </div>
+                    <div class="col-md-6 text-column">
+                        <div class="number" data-aos="fade-up" data-aos-duration="1000">02</div>
+                        <h3 data-aos="fade-up" data-aos-duration="1200">Team</h3>
+                        <p data-aos="fade-up" data-aos-duration="1500">
+                        <strong>DCYBER</strong> DCYBER is a team of dedicated cybersecurity professionals who bring a wealth of experience and expertise to the table. Our team members have worked for various government agencies, multinational financial institutions, and mutual funds, and have a deep understanding of infrastructure and security. At DCYBER, we believe in the power of collaboration and teamwork, and our team members work together to provide top-notch cyber consulting and advisory services to our clients. We are committed to helping businesses stay secure in an increasingly complex digital landscape.</p>
+                        <a href="team.html"><button data-aos="fade-up" data-aos-duration="1800">Team</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="drone-section">
+                <div class="row">
+                    <div class="col-sm-6 order-sm-12" id="right">
+                        <div class="services-img drone image5"><img src="images/blog2.png"></div>
+                    </div>
+                    <div class="col-sm-6 order-sm-1" id="left">
+                        <div class="number" data-aos="fade-up" data-aos-duration="1000">03</div>
+                        <h3 data-aos="fade-up" data-aos-duration="1200">Blog</h3>
+                        <p data-aos="fade-up" data-aos-duration="1500"><strong>DCYBER, </strong>The DCYBER blog is a valuable resource for anyone interested in cybersecurity.Our team of experts regularly publishes articles on the latest cyber threats, best practices for protecting against cyber attacks, and insights into the latest trends and developments in the industry. Whether you're a business owner looking to protect your digital assets, or an individual interested in learning more about cybersecurity, our blog is a must-read. We believe that education and awareness are key to staying safe in the digital world, and our blog is one of the ways we help our community stay informed.</p>
+                        <a href="blog.html"><button data-aos="fade-up" data-aos-duration="1800">Blog</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="design-home"></div>
+            
+            <div class="container-fluid references-section" id="section1">
+    <div class="row">
+        <div class="col-lg-12 references-container">
+            <div class="images1">
+            <img src="images/logo1.png">
+            <img src="images/arconlogo.png" >
+            <img src="images/logo3.png" width="500" height="50">
+            <img src="images/logo4.png">
+            <img src="images/logo5.png">
+            <img src="images/logo6.png" width="50%">
+            <img src="images/logo7.png" >
+            <img src="images/logo23.webp">
+            <img src="images/logo2.webp" width="200px" height="45">
+            <img src="images/logo10.png">
+            <img src="images/logo11.png" >
+            <img src="images/logo14.png" >
+            <img src="images/logo13.png" >
+            <img src="images/logo15.png" >
+            <img src="images/logo16.png" >
+            <img src="images/logo20.png">
+            </div>  
+        </div>
+    </div>
+    <a href="contact.html"><button id="button-center">Contact</button></a>
+</div>
+
+             <footer>
+    <a href="."><img id="logo-hero" src="images/DCS_india_logo.webp"></a>
+    <div id="legal-notice">Copyright © DCyber Techlab Private Ltd., All Right Reserved.</div>
+</footer>
+           
+        </main>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  
+    
+        <script type="text/javascript" src="button.js"></script>
+        <script type="text/javascript" src="cursor.js"></script>
+        
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js'></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
